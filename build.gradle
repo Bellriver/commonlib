@@ -30,9 +30,7 @@ android {
 dependencies {
 }
 
-//task clearJar(type: Delete) {
-//    delete 'build/libs/talpaos-sdklibrary.jar'//If has created the jar, delete it
-//}
+
 
 task makeJar(type: Copy) {
     from('build/intermediates/bundles/release/')
@@ -40,5 +38,3 @@ task makeJar(type: Copy) {
     include('classes.jar')
 //    rename ('classes.jar', 'talpaos-sdklibrary.jar')
 }
-
-//makeJar.dependsOn(clearJar, build)
