@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FloatBtn">
+        <attr name="floatBtnColor" format="color"/>
+        <attr name="shadowColor" format="color"/>
+        <attr name="shadowOffsetY" format="dimension"/>
+        <attr name="shadowRadius" format="dimension"/>
+        <attr name="floatBtnSrc" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomeSwitchTheme">
+        <attr name="Switch" format="reference" />
+        <attr name="SwitchPreferenceStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="SwitchPreference">
+    </declare-styleable>
+
+    <declare-styleable name="SdkSwitch">
+        <attr name="thumb" format="reference"/>
+        <!-- Drawable to use as the "track" that the switch thumb slides within. -->
+        <attr name="track" format="reference" />
+        <!-- switch thumb on drawable add by suyouxiong. @hide -->
+        <attr name="thumbOn" format="reference" />
+        <!-- switch thumb off drawable add by suyouxiong. @hide -->
+        <attr name="thumbOff" format="reference" />
+        <!-- Minimum width for the switch component -->
+        <attr name="switchMinWidth" format="dimension" />
+        <!-- Minimum space between the switch and caption text -->
+        <attr name="switchPadding" format="dimension" />
+        <!-- white track used in dark background -->
+        <attr name="whiteTrack" format="reference" />
+        <attr name="splitTrack" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="Operation">
+        <attr name="operationItemIcon" format="reference"/>
+        <attr name="operationItemTitle" format="reference"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.common.sdk.widget.dialog.view.LimitedWHLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                         android:id="@+id/parentPanel"
+                                                         android:layout_width="match_parent"
+                                                         android:layout_height="wrap_content"
+                                                         android:orientation="vertical">
+    <include layout="@layout/dialog_title_view"/>
+    <include layout="@layout/dialog_single_check_customeview"/>
+    <include layout="@layout/dialog_btn_container"/>
+</com.common.sdk.widget.dialog.view.LimitedWHLinearLayout>

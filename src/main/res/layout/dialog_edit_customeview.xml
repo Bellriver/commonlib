@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.common.sdk.widget.dialog.view.DialogCustomeEditContainer xmlns:android="http://schemas.android.com/apk/res/android"
+                                                              android:id="@+id/dialog_edit_container"
+                                                              android:layout_width="match_parent"
+                                                              android:layout_height="match_parent"
+                                                              android:orientation="vertical"
+                                                              android:paddingStart="@dimen/dialog_et_container_paddingLR"
+                                                              android:paddingEnd="@dimen/dialog_et_container_paddingLR"
+                                                              android:layout_marginTop="@dimen/dialog_et_content_marginTB">
+
+    <TextView
+        android:id="@+id/dialog_secodetitle_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/dialog_et_title_textsize"
+        android:textColor="@color/dialog_content_textcolor"
+        android:fontFamily="roboto-regular"
+        android:layout_marginBottom="@dimen/dialog_et_secondtitle_marginbottom"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/dialog_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dialog_et_content_marginTB"
+        android:background="@drawable/dialog_et_bg"
+        android:minHeight="@dimen/dialog_et_edittext_minheight"
+        android:paddingBottom="@dimen/dialog_et_edittext_paddingTB"
+        android:paddingStart="@dimen/dialog_et_edittext_paddingLeft"
+        android:paddingTop="@dimen/dialog_et_edittext_paddingTB"
+        android:textColor="@color/dialog_content_textcolor"
+        android:textSize="@dimen/dialog_content_textsize"
+        android:textCursorDrawable="@drawable/dialog_text_cursor_material"/>
+</com.common.sdk.widget.dialog.view.DialogCustomeEditContainer>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@drawable/dialog_background</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+        <item name="android:windowAnimationStyle">@style/Bottom.Dialog.Animation</item>
+        <item name="android:windowMinWidthMajor">100%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+        <item name="android:listPreferredItemHeightSmall">@dimen/dialog_listitem_height</item>
+        <item name="android:textColorAlertDialogListItem">@color/dialog_listitem_textcolor</item>
+    </style>
+
+    <style name="Widget.Holo.Button.Borderless" parent="@android:style/Widget.Material.Button.Borderless">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/btn_minheight</item>
+        <item name="android:background">@drawable/btn_bg</item>
+        <item name="android:textSize">@dimen/btn_textsize</item>
+        <item name="android:textColor">@color/btn_textcolor</item>
+    </style>
+
+    <style name="Operation_Animation">
+        <item name="android:windowEnterAnimation">@anim/bottom_popup_window_slide_in</item>
+        <item name="android:windowExitAnimation">@anim/bottom_popup_window_slide_out</item>
+    </style>
+
+    <style name="Widget.AppCompat.SeekBar" parent="@android:style/Widget.SeekBar">
+        <item name="android:maxHeight">@dimen/seekbar_progressdrawable_height</item>
+        <item name="android:thumb">@drawable/icon_seekbar_thumb</item>
+        <item name="android:progressDrawable">@drawable/seekbar_progressdrawable</item>
+        <item name="android:splitTrack">false</item>
+    </style>
+
+    <style name="Activity.BaseTheme" parent="@android:style/Theme.Material.Light">
+        <item name="android:textAppearanceLargePopupMenu">@style/TextAppearance.Material.Widget.PopupMenu.Large</item>
+        <item name="android:actionOverflowMenuStyle">@style/Widget.Material.ListPopupWindow</item>
+        <item name="android:dropDownListViewStyle">@style/Widget.Material.ListView.DropDown</item>
+    </style>
+
+    <style name="Activity.WitchSwitch.Theme" parent="@android:style/Theme.Material.Light">
+        <item name="android:switchStyle">@style/Widget.CompoundButton.Switch</item>
+        <item name="android:selectableItemBackground">@null</item>
+        <item name="android:selectableItemBackgroundBorderless">@null</item>
+        <item name="android:listViewStyle">@style/Widget.Material.Light.ListView</item>
+        <item name="android:textAppearanceLarge">@style/TextAppearance.Material.Large</item>
+        <item name="android:widgetLayout">@layout/preference_widget_switch</item>
+        <item name="Switch">@style/Widget.Switch</item>
+        <item name="SwitchPreferenceStyle">@style/Widget.SwitchPreference</item>
+    </style>
+
+    <style name="Operation_Item_Style">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/operation_item_height</item>
+    </style>
+
+    <style name="Operation_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">@dimen/operation_window_padding_lr</item>
+        <item name="android:paddingEnd">@dimen/operation_window_padding_lr</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/btn_bg_normal_color</item>
+    </style>
+</resources>
