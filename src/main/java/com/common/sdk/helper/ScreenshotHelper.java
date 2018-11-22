@@ -23,7 +23,7 @@ import java.text.SimpleDateFormat;
 
 
 /**
- * Created by jiangjiang.zhong on 2018/11/20.
+ * 
  * Description: Capture device screens in real time using the media projection API
  */
 
