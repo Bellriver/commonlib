@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.ServiceConnection;
 
 /**
- * Created by jiangjiang.zhong on 2018/11/19.
+ * Created by Rivers on 2018/11/19.
  * Description:
  * compile 'com.google.android.gms:play-services-vision:16.2.0'
  */
